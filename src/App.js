@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Map from "./components/Map";
 import Places from "./components/Places";
@@ -10,6 +11,7 @@ function App() {
       <Map />
       <Regions />
       <Places />
+      <Footer />
     </>
   );
 }
