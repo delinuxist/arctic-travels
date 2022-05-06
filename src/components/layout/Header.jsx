@@ -13,8 +13,8 @@ import masterSvg from "../../assets/img/master-card.svg"
 const Header = () => {
   return (
     <>
-      <div className='absolute w-full bg-gray-900/40'>
-  <img className=' object-center w-full h-[770px] mix-blend-overlay' src={bgImg} alt="" />
+      <div className='absolute w-full bg-black/50'>
+  <img className=' object-cover w-full h-[770px] mix-blend-overlay' src={bgImg} alt="" />
   </div>
       {/* Nav */}
       <div className=' container h-[80px] bg-transparent mx-auto px-5'>
